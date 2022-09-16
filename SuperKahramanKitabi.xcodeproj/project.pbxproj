@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338A2CAF28D4CF0600AE18D9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2CAE28D4CF0600AE18D9 /* DetailsViewController.swift */; };
 		33D91FE028D368490069E89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D91FDF28D368490069E89A /* AppDelegate.swift */; };
 		33D91FE228D368490069E89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D91FE128D368490069E89A /* SceneDelegate.swift */; };
 		33D91FE428D368490069E89A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D91FE328D368490069E89A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338A2CAE28D4CF0600AE18D9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		33D91FDC28D368490069E89A /* SuperKahramanKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKahramanKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D91FDF28D368490069E89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D91FE128D368490069E89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				33D91FE828D3684A0069E89A /* Assets.xcassets */,
 				33D91FEA28D3684A0069E89A /* LaunchScreen.storyboard */,
 				33D91FED28D3684A0069E89A /* Info.plist */,
+				338A2CAE28D4CF0600AE18D9 /* DetailsViewController.swift */,
 			);
 			path = SuperKahramanKitabi;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				33D91FE428D368490069E89A /* ViewController.swift in Sources */,
 				33D91FE028D368490069E89A /* AppDelegate.swift in Sources */,
 				33D91FE228D368490069E89A /* SceneDelegate.swift in Sources */,
+				338A2CAF28D4CF0600AE18D9 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
