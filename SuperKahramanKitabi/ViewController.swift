@@ -13,6 +13,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     var superHeroNames = [String]()
     var superHeroImagesNames = [String]()
+    var selectedName = ""
+    var selectedImagesName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +43,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = superHeroImagesNames[indexPath.row]
         return cell
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetailsVC"{
+            let destinationVC = segue.destination as! DetailsViewController
+            destinationVC.selectedHeroImagesName = selectedImagesName
+            destinationVC.selectedHeroName = selectedName
+        }
+    }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete{
             superHeroImagesNames.remove(at: indexPath.row)
@@ -49,8 +58,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedName = superHeroNames[indexPath.row]
+        selectedImagesName = superHeroImagesNames[indexPath.row]
+        
         performSegue(withIdentifier: "toDetailsVC", sender: nil)
     }
+                                                      
     
 }
 

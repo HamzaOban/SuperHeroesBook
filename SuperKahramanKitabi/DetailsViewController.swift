@@ -12,10 +12,14 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
+    var selectedHeroName = ""
+    var selectedHeroImagesName = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        label.text = selectedHeroName
+        imageView.image = UIImage(named: selectedHeroImagesName)
         
     }
     

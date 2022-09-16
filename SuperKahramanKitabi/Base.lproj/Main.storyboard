@@ -58,18 +58,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kws-fZ-tdC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kws-fZ-tdC">
                                 <rect key="frame" x="16" y="178" width="358" height="229"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BDB-fB-cKr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Kws-fZ-tdC" firstAttribute="leading" secondItem="6R5-If-W3H" secondAttribute="leadingMargin" id="5uz-dS-Jpb"/>
+                            <constraint firstItem="X0W-UF-FsM" firstAttribute="top" secondItem="Kws-fZ-tdC" secondAttribute="bottom" constant="8" id="DJh-uQ-J8j"/>
                             <constraint firstItem="BDB-fB-cKr" firstAttribute="trailing" secondItem="X0W-UF-FsM" secondAttribute="trailing" constant="83" id="OJS-em-aXb"/>
-                            <constraint firstItem="X0W-UF-FsM" firstAttribute="top" secondItem="Kws-fZ-tdC" secondAttribute="bottom" constant="8" id="ZxY-zt-Wg0"/>
-                            <constraint firstItem="X0W-UF-FsM" firstAttribute="leading" secondItem="Kws-fZ-tdC" secondAttribute="leading" constant="59" id="bNl-QB-QU0"/>
+                            <constraint firstItem="Kws-fZ-tdC" firstAttribute="trailing" secondItem="6R5-If-W3H" secondAttribute="trailingMargin" id="Oq2-nH-cLU"/>
+                            <constraint firstItem="Kws-fZ-tdC" firstAttribute="top" secondItem="BDB-fB-cKr" secondAttribute="top" constant="87" id="bz8-Nf-W1X"/>
                             <constraint firstItem="X0W-UF-FsM" firstAttribute="leading" secondItem="BDB-fB-cKr" secondAttribute="leading" constant="75" id="e2u-AE-cC9"/>
-                            <constraint firstItem="X0W-UF-FsM" firstAttribute="trailing" secondItem="Kws-fZ-tdC" secondAttribute="trailing" constant="-67" id="jya-jE-AbE"/>
                             <constraint firstItem="BDB-fB-cKr" firstAttribute="bottom" secondItem="X0W-UF-FsM" secondAttribute="bottom" constant="202" id="oHE-5w-1Pz"/>
                         </constraints>
                     </view>
